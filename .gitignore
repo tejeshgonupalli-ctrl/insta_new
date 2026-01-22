@@ -1,0 +1,35 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Session & login data (except .gitkeep)
+sessions/*
+!sessions/.gitkeep
+
+# Logs (except .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Downloaded / generated media folders
+insta_downloads/
+filtered_downloads/
+filtered_downloads_watermarked/
+final_ready_to_post/
+
+# Runtime job storage
+scheduled_jobs.json
+
+# Secrets
+.env
+*.key
+test_keys.py
+
+# Streamlit cache
+.streamlit/
+
+# MoviePy temporary files
+*.mp4.temp
+*.mp3.temp
